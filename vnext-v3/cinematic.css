@@ -1,0 +1,16 @@
+
+/* v3 cinematic legibility: animated topographic profile within action stage */
+#gradeHud{position:absolute;z-index:5;left:24px;top:77px;width:416px;height:156px;background:linear-gradient(130deg,#0c382ccf,#0c3028dc);border:1px solid #99b49d8c;border-radius:13px;box-shadow:0 14px 26px #071d178c;padding:11px 16px 9px;backdrop-filter:blur(4px);pointer-events:none}
+.gradeHead{display:flex;align-items:center;justify-content:space-between;gap:5px;font-size:12px;font-weight:950;letter-spacing:1.4px;color:#a9d6c1}
+.gradeStage{font-size:10px;letter-spacing:.8px;color:#f4d391;border:1px solid #ba9a637a;padding:3px 6px;border-radius:5px}
+.gradeName{font-size:17px;font-weight:920;color:#fff3cf;line-height:1.2;margin-top:7px}
+.gradeSVG{height:75px;width:100%;display:block;margin-top:0}
+#gradeLine{stroke:#ffde9a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;fill:none}
+#gradeFill{fill:#f2cb7552;stroke:none}.gradeBase{stroke:#c3d4bf8f;stroke-width:1}
+.gradeDot{fill:#ffdea1;stroke:#ffffff;stroke-width:2}.gradeGlow{fill:none;stroke:#f5d37b;stroke-width:1.5;opacity:.35}
+.gradeFoot{display:flex;justify-content:space-between;align-items:center;color:#a8bfb2;font-size:10.5px;font-weight:800;line-height:1}
+.formationAside .stageCard:first-child{flex:0 0 178px}.formationAside .stageCard:nth-child(2){flex:0 0 215px}
+.formationAside .stageCard:first-child h2{font-size:25px;margin:10px 0 8px}
+.formationAside .stageCard:first-child p{font-size:16px;line-height:1.5}
+.formationAside .stageCard.darker .leader{margin:5px 0}
+.formationAside .miniExplain{font-size:11.5px}
