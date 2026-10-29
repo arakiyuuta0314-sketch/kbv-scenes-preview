@@ -1,0 +1,119 @@
+{
+  "schema": "kbv.terrain-facts.qa/v1",
+  "tokyo": {
+    "schema": "kbv.terrain-facts/v1",
+    "status": "FACTS_ONLY_NO_SCORE",
+    "raceId": "2026-10-25_tokyo_d1400",
+    "courseIdentity": {
+      "masterSourceSha256": "8f7e7c5f0a3d7ef724bc67f4e395cc8bb11c64f1484565a69e9c4b68a14ab884",
+      "venue": "05",
+      "surface": "dirt",
+      "courseVariant": "normal",
+      "distanceM": 1400,
+      "cornerCount": 2,
+      "verificationStatus": "JRA_ROUTE_DERIVED",
+      "officialUrl": "https://www.jra.go.jp/facilities/race/tokyo/course/"
+    },
+    "facts": {
+      "firstCornerName": "3コーナー",
+      "firstTurnDistanceM": {
+        "value": 440,
+        "precision": "approximately",
+        "source": "https://sugo.jra-van.jp/sugotoku/crs/crs05d1400.html"
+      },
+      "qualitative": [
+        {
+          "key": "starting_surface",
+          "value": "dirt",
+          "evidence": "JRA-VAN_COURSE_TEXT"
+        },
+        {
+          "key": "early_terrain",
+          "value": "gentle_uphill_after_initial_straight",
+          "evidence": "JRA-VAN_COURSE_TEXT",
+          "description": "スタートからしばらく進んだところで緩やかな上り坂"
+        },
+        {
+          "key": "turn3_to_turn4",
+          "value": "approximately_flat",
+          "evidence": "JRA-VAN_COURSE_TEXT",
+          "description": "3～4コーナーはほぼ平坦"
+        }
+      ],
+      "straightLengthM": {
+        "value": 501.6,
+        "source": "https://www.jra.go.jp/facilities/race/tokyo/course/"
+      },
+      "totalElevationRangeM": {
+        "value": 2.5,
+        "source": "https://www.jra.go.jp/facilities/race/tokyo/course/"
+      }
+    },
+    "exclusions": [
+      "Scene03 diagram-drawn GPS geometry",
+      "Scene03 approximate altitude breakpoints",
+      "estimated horse lanes and animation timings",
+      "pace labels",
+      "ability or score adjustments"
+    ],
+    "note": "Do not assume hill effect on a horse or pace without separate race evidence."
+  },
+  "nakayamaSample": {
+    "schema": "kbv.terrain-facts/v1",
+    "status": "FACTS_ONLY_NO_SCORE",
+    "raceId": null,
+    "courseIdentity": {
+      "masterSourceSha256": "8f7e7c5f0a3d7ef724bc67f4e395cc8bb11c64f1484565a69e9c4b68a14ab884",
+      "venue": "06",
+      "surface": "turf",
+      "courseVariant": "inner",
+      "distanceM": 2000,
+      "cornerCount": 4,
+      "verificationStatus": "JRA_ROUTE_DERIVED",
+      "officialUrl": "https://www.jra.go.jp/facilities/race/nakayama/course/"
+    },
+    "facts": {
+      "firstCornerName": "1コーナー",
+      "firstTurnDistanceM": {
+        "value": 405,
+        "precision": "approximately",
+        "source": "https://sugo.jra-van.jp/sugotoku/crs/crs06t2000.html"
+      },
+      "qualitative": [
+        {
+          "key": "starting_surface",
+          "value": "turf",
+          "evidence": "JRA-VAN_COURSE_TEXT"
+        },
+        {
+          "key": "early_terrain",
+          "value": "uphill_until_midway_between_first_and_second_corners",
+          "evidence": "JRA-VAN_COURSE_TEXT",
+          "description": "1～2コーナーの中間までは上り坂"
+        },
+        {
+          "key": "finish_terrain",
+          "value": "steep_uphill_near_finish",
+          "evidence": "JRA-VAN_COURSE_TEXT",
+          "description": "ゴール前には高低差約2.2mの上り坂"
+        }
+      ],
+      "straightLengthM": {
+        "value": 310,
+        "source": "https://www.jra.go.jp/facilities/race/nakayama/course/"
+      },
+      "totalElevationRangeM": {
+        "value": 5.3,
+        "source": "https://www.jra.go.jp/facilities/race/nakayama/course/"
+      }
+    },
+    "exclusions": [
+      "Scene03 diagram-drawn GPS geometry",
+      "Scene03 approximate altitude breakpoints",
+      "estimated horse lanes and animation timings",
+      "pace labels",
+      "ability or score adjustments"
+    ],
+    "note": "Do not assume hill effect on a horse or pace without separate race evidence."
+  }
+}
