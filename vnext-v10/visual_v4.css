@@ -1,0 +1,39 @@
+/* Scene03 v4 — light, depth and typography polish. No narration timing constants. */
+:root{--film-gold:#edca87;--film-green:#154437;--film-cream:#fff5db}
+#viewport{border:1px solid #668d74;box-shadow:0 24px 90px #010906c7,0 0 0 1px #f2db9b12}
+#board{background:radial-gradient(ellipse 85% 80% at 50% 50%,#23513a 0%,#0e2b24 55%,#081b17 100%)}
+#board:after{content:'';pointer-events:none;position:absolute;z-index:28;inset:0;box-shadow:inset 0 0 110px #00130b1e;mix-blend-mode:multiply}
+.header{background:linear-gradient(104deg,#0b3228f5,#174838f2 60%,#0b2f27f7);border-bottom:1px solid #d6dab02e}
+.episode span{border-color:#d4ca8569;background:#ecca8920;color:#ffe6a8}
+.sceneTitle{top:108px}.sceneTitle h1{font-size:45px;letter-spacing:-.8px}.sceneTitle h1 em{color:#f1ce86}
+.phase{transition:opacity .8s cubic-bezier(.19,.8,.2,1)}
+.courseCanvas{background:radial-gradient(ellipse at 52% 35%,#416a4d 0,#214837 60%,#102c26 100%);box-shadow:0 26px 54px #00160c9e, inset 0 1px #a9c7a74d}
+.courseCanvas:before{content:'';pointer-events:none;position:absolute;inset:0;z-index:1;background:radial-gradient(ellipse at 28% 6%,#f6eac519 0%,transparent 52%),linear-gradient(160deg,transparent 50%,#00150b20)}
+.courseCanvas svg{filter:drop-shadow(0 14px 17px #0b1f15a0)}
+.courseMiniLabel{z-index:2;bottom:15px;border:1px solid #c2d0b05e;background:#072a21d9;display:flex;align-items:center;gap:9px}
+.courseMiniLabel span{color:#cfdfc0;font-size:12px;font-weight:780}
+#modelLabel{color:#ffe1a0;font-size:12px;letter-spacing:.5px}
+.insightHead,.insightCell,.profileCard,.stageCard{box-shadow:0 7px 22px #01190f36,inset 0 1px #e4f1c812}
+.insightCell{background:linear-gradient(155deg,#22513b,#13392d 79%)}
+.insightCell.feature{border-color:#cfbc7c7d}
+.bigStat b{color:#ffe0a2;text-shadow:0 2px 20px #f1cc7542}
+.insightTwos strong{letter-spacing:-.7px}
+.profileCard{background:linear-gradient(145deg,#1b4233,#13352c)}
+.trackStage{background:#204e3d;box-shadow:0 24px 54px #00150a9e,inset 0 1px #aac8a74c}
+.trackStage:after{content:'';pointer-events:none;position:absolute;inset:0;z-index:2;box-shadow:inset 0 0 67px #11281b27;mix-blend-mode:multiply}
+#gradeHud{box-shadow:0 15px 32px #00150b8c,0 0 0 1px #ffffff08;backdrop-filter:blur(7px);background:linear-gradient(135deg,#0b3028e9,#114334e5)}
+#gradeHud .gradeHead{color:#bfd2b5}
+#gradeHud .gradeName{color:#fff0c7}
+.stageCard{border-color:#7c9a7a67;background:linear-gradient(140deg,#1d5039,#123b2f 74%)}
+.stageCard.darker{background:linear-gradient(145deg,#153a2e,#102e24)}
+.stageCard h2{color:#fff3d2}
+#actionSvg{filter:saturate(1.02)}
+.direction,.reviewBadge{backdrop-filter:blur(6px);box-shadow:0 6px 18px #021a0e65}
+.reviewField{box-shadow:0 19px 47px #00130ba3}
+.horse .rim{filter:drop-shadow(0 2px 2px #241d17c9)}
+.horse.important .halo{stroke:#ffe0a0;opacity:.92;filter:drop-shadow(0 0 6px #fbd06a78)}
+.horse text{paint-order:stroke fill}
+.footerHeadline{background:linear-gradient(90deg,#103d2fee,#0c3129eb);border-color:#b8b88356;box-shadow:0 9px 25px #041e1245}
+.footerLeft span:first-child{color:#f9d68e}
+.progress i{background:linear-gradient(90deg,#bd994e,#fff0b3)}
+.watermark{z-index:29}
