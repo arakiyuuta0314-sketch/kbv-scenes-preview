@@ -1,5 +1,7 @@
-/* v8 stop-point annotation: derived from the exact same normalized motion function
-   as the course inset. Never treat it as surveyed horse-distance telemetry. */
+/* Coarse staging label: a narrative checkpoint, not surveyed horse telemetry.
+   The animated normalized u is deliberately NOT converted into race meters.
+   Exact stage placement is not part of the prediction model.
+*/
 'use strict';
 (function(){
  const field=document.querySelector('.reviewField');
@@ -10,10 +12,12 @@
  updateReview=function(){
    prev();
    const ref=window.KBV_COURSE_MOTION_V7.reference(1);
-   const approx=Math.round((1-ref.u)*course.firstTurn.distance);
-   if(approx<0||!Number.isFinite(approx))throw Error('DATA ERROR: stop-point projection invalid');
+   if(!Number.isInteger(ref.number)||!course.firstTurn?.label)
+     throw Error('DATA ERROR: incomplete coarse formation checkpoint');
    bar.replaceChildren();
-   bar.append(document.createTextNode(course.firstTurn.label+'進入前・先頭想定 '+ref.number+'番 ／ 約'+approx+'m手前'));
-   const sub=document.createElement('small');sub.textContent='（映像上の目安）';bar.append(sub);
+   bar.append(document.createTextNode(course.firstTurn.label+'進入前付近・隊列の区切り'));
+   const sub=document.createElement('small');
+   sub.textContent='先頭想定 '+ref.number+'番 ／ 位置は模式表現';
+   bar.append(sub);
  };
 })();
