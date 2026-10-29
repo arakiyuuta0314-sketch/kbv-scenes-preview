@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>けいばびより｜Scene03 JRA-traced course lab v5</title>
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="cinematic.css"><link rel="stylesheet" href="visual_v4.css">
+</head>
+<body>
+<main>
+<div id="viewport"><div id="board">
+  <header class="header">
+    <div class="brand"><span class="sun">☀</span>けいばびより</div>
+    <span class="hairline"></span>
+    <div class="raceHeading"><strong id="raceName"></strong><span id="raceMeta"></span></div>
+    <div class="episode">COURSE × FORMATION <span>Scene 03</span></div>
+  </header>
+  <div class="ambient"></div>
+  <div class="sceneTitle">
+    <div class="kicker" id="kicker">COURSE GUIDE</div>
+    <h1 id="bigTitle">コースを知る。<em>展開を読む。</em></h1>
+    <p id="subTitle">コースの特徴から、序盤の隊列を考える。</p>
+  </div>
+  <section class="panel phase on" id="phaseIntro">
+    <div class="courseCanvas">
+      <div class="courseShade"></div>
+      <svg id="courseWorld" viewBox="0 0 1040 540" aria-label="コースの立体模式図">
+        <defs>
+          <linearGradient id="sand" x1="0" y1="0" x2=".7" y2="1">
+            <stop offset="0" stop-color="#e5cda3"/><stop offset=".48" stop-color="#ad895e"/><stop offset="1" stop-color="#77543c"/>
+          </linearGradient>
+          <linearGradient id="grass" x1="0" y1="0" x2=".5" y2="1">
+            <stop stop-color="#4a9771"/><stop offset="1" stop-color="#17573c"/>
+          </linearGradient>
+          <filter id="softshadow"><feGaussianBlur stdDeviation="18"/></filter>
+        </defs>
+        <g id="courseModel"></g>
+        <g id="courseLandmarks"></g>
+      </svg>
+      <div class="courseMiniLabel">COURSE MODEL <span>2.5D · 模式図</span></div>
+    </div>
+    <aside class="insight">
+      <div class="insightHead"><span class="tiny">COURSE DATA / 公式資料</span><span id="surfacePill" class="pill">DIRT</span></div>
+      <div class="insightCell feature">
+        <span class="tiny" id="firstTurnName">START → FIRST TURN</span>
+        <div class="bigStat"><b id="firstTurn">--</b><span>m</span></div>
+        <div class="desc" id="firstTurnText"></div>
+      </div>
+      <div class="insightTwos">
+        <div class="insightCell"><span class="tiny">LAST STRAIGHT</span><strong id="straight">--</strong><span class="unit">m</span></div>
+        <div class="insightCell"><span class="tiny">COURSE ELEVATION</span><strong id="courseRise">--</strong><span class="unit">m</span></div>
+      </div>
+      <div class="profileCard">
+        <div class="profileTop"><span class="tiny">ELEVATION PROFILE</span><span id="slopeTag"></span></div>
+        <svg id="profileSVG" viewBox="0 0 450 120" aria-label="コース起伏の模式図"></svg>
+        <div class="profileFoot" id="profileFoot">※ 起伏・勾配は説明用の模式表現。横距離と高低差は非縮尺。</div>
+      </div>
+    </aside>
+  </section>
+  <section class="panel phase" id="phaseAction">
+    <div class="trackStage">
+      <svg id="actionSvg" viewBox="0 0 1080 555" aria-label="スタートからコーナーまでの想定隊列形成">
+       <defs>
+        <linearGradient id="actionSand" x1="0" y1="0" x2="0" y2="1">
+          <stop stop-color="#e5caa0"/><stop offset=".7" stop-color="#bc9b74"/><stop offset="1" stop-color="#967454"/>
+        </linearGradient>
+        <linearGradient id="actionGrass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#39745a"/><stop offset="1" stop-color="#254f3f"/></linearGradient>
+        <pattern id="grain" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="5" cy="7" r="1.1" fill="#755334" opacity=".3"/><path d="M16 21l4 1" stroke="#ffe9c1" opacity=".34"/></pattern>
+       </defs>
+       <g id="actionCamera">
+        <g id="terrainModel"></g><g id="terrainGrain"></g>
+        <g id="gateModel"></g><g id="horseMarks"></g>
+       </g>
+       <g id="onTrackSigns"></g>
+      </svg>
+      <div class="actionTop"><span class="direction">◀ 進行方向</span><span id="stageBadge">START</span></div>
+      <div class="railBottom"><span class="railLegend"><i></i> 内ラチ基準</span><span>馬の進路は予想イメージ</span></div>
+    </div>
+    <aside class="formationAside">
+      <div class="stageCard">
+        <span class="tiny amber">FORMATION / 序盤の隊列</span>
+        <h2 id="actionHeadline"></h2>
+        <p id="actionCopy"></p>
+      </div>
+      <div class="stageCard darker">
+        <span class="tiny">注目する馬</span>
+        <div id="leaders"></div>
+        <div class="miniExplain">ゲートの枠と、走行中の内外の位置は別の情報です。</div>
+      </div>
+      <div class="mapProgress"><div class="miniText">スタートから最初のコーナーへ</div><div class="meterTrack"><i id="meterFill"></i></div><span id="distanceCount"></span></div>
+    </aside>
+  </section>
+  <section class="panel phase" id="phaseReview">
+    <div class="reviewField">
+      <svg id="reviewSvg" viewBox="0 0 1090 556" aria-label="最初のコーナーで完成した全頭の想定隊列">
+        <g id="reviewTerrain"></g><g id="reviewMarks"></g>
+        <g id="reviewAnnotations"></g>
+      </svg>
+      <div class="reviewBadge">FORMATION LOCK <span>想定隊列</span></div>
+    </div>
+    <aside class="reviewAside">
+      <div class="stageCard">
+        <span class="tiny amber">RACE PLAN / このレースの焦点</span>
+        <h2 id="reviewTitle"></h2>
+        <p id="reviewCopy"></p>
+        <div id="analysisPoints"></div>
+      </div>
+      <div class="stageCard darker"><span class="tiny">表示について</span><p class="caution">全頭の前後と内外は予測の模式配置。着順の再現ではありません。</p></div>
+    </aside>
+  </section>
+  <div class="footerHeadline"><div class="footerLeft"><span id="footerLabel">COURSE INSIGHT</span><span id="footerInfo">コースの特徴から、隊列の形成へ。</span></div><span class="footRight">けいばびより｜展開想定</span></div>
+  <div class="progress"><i id="progressFill"></i></div>
+  <div class="watermark">PREVIEW · 予想の模式映像</div>
+</div></div>
+<div class="controls">
+  <button id="playBtn" class="primary">▶ 再生</button>
+  <button id="introBtn">コース</button><button id="actionBtn">スタート</button><button id="reviewBtn">隊列</button>
+  <input type="range" id="seek" min="0" max="1000" value="0" aria-label="映像進行">
+  <span id="position">0%</span>
+  <select id="raceSelect" aria-label="サンプルレース選択"></select>
+  <label class="fileInput">音声を指定<input id="audioInput" type="file" accept="audio/*,.wav"></label>
+  <label class="fileInput">レースJSON<input id="raceInput" type="file" accept=".json,application/json"></label>
+  <span id="playbackStatus" aria-live="polite">プレビュー</span>
+</div>
+<div class="notes" id="notes"></div>
+</main>
+<audio id="narration" preload="metadata"></audio>
+<script src="config.js"></script><script src="app.js"></script><script src="cinematic.js"></script><script src="visual_v4.js"></script><script src="jra_trace_data.js"></script><script src="jra_geometry_v5.js"></script>
+</body></html>
