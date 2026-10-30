@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>けいばびより｜Scene03 コース質感比較 v12</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="brand"><span class="sun">☀</span> けいばびより <small>SCENE 03 / VISUAL LAB</small></div>
+    <div class="status">VISUAL STUDY <b>v12</b> <i>本番未採用</i></div>
+  </header>
+  <div class="subheader">
+   <div><div class="eyebrow">TOKYO DIRT 1400M · JRA COURSE TRACE</div>
+     <h1 id="headline">コースを、どう見せるか。</h1>
+     <p>同一コース・同一隊列・同一カメラ角度で、描画表現を比較。</p></div>
+   <div class="selectors">
+    <div class="chooser" aria-label="質感を選ぶ"><button data-style="flat" class="selected">A / 2.5D風</button><button data-style="real">B / 3D質感</button></div>
+    <div class="chooser" aria-label="画面構成を選ぶ"><button data-scene="overview" class="selected">コース全景</button><button data-scene="formation">隊列形成</button></div>
+   </div>
+  </div>
+  <section class="scene">
+    <canvas id="sceneCanvas" width="1560" height="592" aria-label="東京競馬場ダート1400メートル立体模式表示"></canvas>
+    <div class="sceneTop">
+      <span id="sceneBadge">COURSE OVERVIEW</span>
+      <span class="region">東京競馬場 / ダート1400m / 左回り</span>
+    </div>
+    <div class="sceneBottom">
+      <div><span class="mini">CURRENT STUDY</span><strong id="styleTag">A｜高品質2.5D風</strong></div>
+      <span class="scope">JRA公式図の手動トレースを用いた模式CG / 非測量データ</span>
+    </div>
+  </section>
+  <footer>
+    <div class="info"><span>01 / TRACK</span><strong id="trackInfo">走路の形状と奥行き</strong><p id="trackBody">芝・ダート・ラチを整理した、読みやすい模式表現。</p></div>
+    <div class="info"><span>02 / FORMATION</span><strong>馬番と隊列は共通</strong><p>16頭の予想サンプル。描画表現を変えても馬番・位置入力は不変。</p></div>
+    <div class="info"><span>03 / TERRAIN</span><strong>地形は概略モデル</strong><p>コース輪郭・起伏はJRA公式図を基にした概算。実測3Dではありません。</p></div>
+  </footer>
+  <div class="footnote">KBV SCENE 03 / MATERIAL EXPERIMENT — 未採用の比較試作。コースデータ・予想ロジック・本番映像は変更しません。</div>
+</div>
+<script src="../vnext-v10/config.js"></script>
+<script src="../vnext-v10/jra_trace_data.js"></script>
+<script type="module" src="compare.js"></script>
+</body></html>
