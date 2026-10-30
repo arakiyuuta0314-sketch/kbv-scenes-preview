@@ -1,0 +1,14 @@
+/* v11 preview-only controls: never included inside the 1600x900 output board. */
+#cameraCompareV11{display:flex;align-items:center;gap:6px;padding:4px 8px;border:1px solid #a1bba072;border-radius:10px;background:linear-gradient(120deg,#183a30,#254639);white-space:nowrap}
+#cameraCompareV11 .camLabel{font-size:10px;font-weight:850;letter-spacing:.6px;color:#d2e1cb;margin-right:3px}
+#cameraCompareV11 button{border:1px solid #a3ba9788;border-radius:7px;background:#102e26;color:#e3ebdb;padding:7px 9px;font-size:12px;font-weight:750;cursor:pointer}
+#cameraCompareV11 button:hover{background:#345a43}
+#cameraCompareV11 button.selected{border-color:#ffe0a0;background:#8d703c;color:#fff9df;box-shadow:inset 0 0 0 1px #f4d58d}
+#cameraCompareV11 button:focus-visible{outline:3px solid #f6df9e;outline-offset:2px}
+/* Keep the positioning aids clear of the moving field on both camera angles. */
+#gradeHud{top:16px;height:132px;width:352px;padding:8px 12px 7px}
+#gradeHud .gradeName{font-size:15px;margin-top:4px}
+#gradeHud .gradeSVG{height:56px}
+#miniMapV6{top:16px}
+.actionTop>span:last-child{margin-right:318px}
+@media(max-width:900px){#cameraCompareV11 .camLabel{display:none}#cameraCompareV11{padding:3px}#cameraCompareV11 button{font-size:11px;padding:5px}}

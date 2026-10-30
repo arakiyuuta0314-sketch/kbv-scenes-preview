@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "data": [
+    {
+      "race": "tokyo",
+      "courseId": "tokyo-d1400",
+      "cameraA": "translate(-35.85 -9.831) scale(1.047)",
+      "cameraB": "translate(-83.537 -68.761) scale(1.19)",
+      "markerCount": 16,
+      "finalCamera": "translate(0 0) scale(1)",
+      "terrainMatch": "shared-with-action-v10"
+    },
+    {
+      "race": "nakayama",
+      "courseId": "nakayama-t2000-A",
+      "cameraA": "translate(-14.91 -9.831) scale(1.047)",
+      "cameraB": "translate(-116.81 -81.595) scale(1.19)",
+      "markerCount": 12,
+      "finalCamera": "translate(0 0) scale(1)",
+      "terrainMatch": "shared-with-action-v10"
+    }
+  ],
+  "errors": []
+}
