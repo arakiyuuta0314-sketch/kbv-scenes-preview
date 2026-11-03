@@ -1,0 +1,14 @@
+*{box-sizing:border-box}html,body{margin:0;background:#071b15;color:#f5f7e9;font-family:"Yu Gothic","Meiryo",sans-serif}
+main{width:1600px;margin:0 auto}#videoFrame{width:1600px;height:900px;position:relative;overflow:hidden;background:#193e2a}#sceneCanvas{position:absolute;inset:0;width:1600px;height:900px}
+#focusOverlay{position:absolute;inset:0;pointer-events:none;overflow:hidden}#focusOverlay .focusNumber{position:absolute;display:flex;align-items:center;justify-content:center;width:84px;height:84px;border-radius:50%;border:5px solid #f9df9a;background:var(--waku);color:var(--text);font:900 46px Arial,sans-serif;text-shadow:0 1px 0 #7774;box-shadow:0 5px 17px #06180fdc,0 0 0 2px #0d382b80}#focusOverlay .focusLine{position:absolute;height:2px;background:#f7e3ad;transform-origin:left center;box-shadow:0 1px 3px #173122}#topInfo{position:absolute;top:0;left:0;right:0;display:flex;align-items:flex-start;justify-content:space-between;padding:35px 52px 55px;background:linear-gradient(#071e19e8,transparent);pointer-events:none}
+#series{font-size:33px;font-weight:900;white-space:nowrap;letter-spacing:-1.4px;text-shadow:0 2px 8px #08281e}.sun{font-size:34px;color:#ffd76d}
+#courseTag{font-size:36px;font-weight:900;color:#fff5df;letter-spacing:1.3px;text-shadow:0 2px 12px #061e17}
+#bottomInfo{position:absolute;left:0;right:0;bottom:0;min-height:192px;padding:52px 70px 54px;display:flex;justify-content:center;align-items:center;flex-direction:column;gap:12px;background:linear-gradient(transparent,#06231bea 70%);pointer-events:none}
+#message{font-size:62px;font-weight:900;letter-spacing:1.5px;color:#fff8e6;text-shadow:0 3px 16px #052317;text-align:center;white-space:nowrap}
+#subMessage{font-size:23px;color:#f6d992;font-weight:800;letter-spacing:2px;text-align:center;min-height:28px}
+#imageNotice{position:absolute;bottom:14px;right:24px;font-size:13px;color:#d1d6bd;opacity:.77;pointer-events:none}
+#demoLabel{position:absolute;left:20px;bottom:14px;font-size:12px;letter-spacing:2px;color:#a8bfac;pointer-events:none}
+.controls{display:flex;align-items:center;gap:9px;margin:0;padding:15px 24px;background:#0a2c20}
+button,select,.upload{font:800 14px "Yu Gothic",sans-serif;padding:11px 14px;border:1px solid #80a58c;background:#184534;color:#f8e8be;border-radius:8px;cursor:pointer}
+#playBtn{background:#ddba6e;color:#1c3026}input[type=range]{accent-color:#f4d486;flex:1;min-width:130px}
+.upload input{display:none}#testStatus{color:#a5bdae;font-size:12px;text-align:right;padding:6px 22px 15px}
