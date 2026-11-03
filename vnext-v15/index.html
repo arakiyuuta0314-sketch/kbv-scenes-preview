@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>けいばびより｜Scene03 v15｜順番に理解する展開図</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<main>
+  <section id="videoFrame" aria-label="Scene03の映像試作">
+    <canvas id="sceneCanvas" width="1600" height="900"></canvas>
+    <div id="focusOverlay" aria-hidden="true"></div>
+    <div id="mapCue" aria-hidden="true"><span id="mapCueLabel"></span></div>
+    <header id="topInfo">
+      <div id="series"><span class="sun">☀</span>けいばびより</div>
+      <div id="courseTag">東京 ダート1400m</div>
+    </header>
+    <section id="bottomInfo">
+      <div id="infoStep">COURSE 01 / 04</div>
+      <div id="message">スタートから3コーナー</div>
+      <div id="subMessage">最初のコーナーまで約440m</div>
+    </section>
+    <div id="imageNotice">コース形状と坂の位置は模式CG・図面トレース由来の概算</div>
+    <div id="demoLabel">VISUAL TEST v15</div>
+  </section>
+  <nav class="controls">
+    <button id="playBtn">▶ 再生</button>
+    <button data-phase="course">コース</button><button data-phase="slope">坂</button>
+    <button data-phase="formation">隊列</button><button data-phase="review">確認</button>
+    <input id="seek" type="range" min="0" max="1000" value="0" aria-label="進行位置">
+    <select id="raceSelect" aria-label="レースを選ぶ"></select>
+    <select id="durationSelect" aria-label="ナレーション長さの試験">
+      <option value="standard">標準22秒</option><option value="long">長尺38秒</option>
+    </select>
+    <label class="upload">レースJSON<input id="upload" type="file" accept=".json,application/json"></label>
+  </nav>
+  <div id="testStatus">試作・正式予想は未連携</div>
+</main>
+<script type="module" src="engine.js"></script>
+</body></html>

@@ -1,0 +1,247 @@
+{
+  "schema": "kbv.scene03.sequential.explanation.qa/v15",
+  "cases": [
+    {
+      "key": "tokyo",
+      "stage": "course",
+      "page": 0,
+      "heading": "3コーナーまで 約440m",
+      "detail": "向正面スタート・左回り",
+      "visibleFocusLabels": 0,
+      "mapAnchor": true,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "tokyo",
+      "stage": "course",
+      "page": 1,
+      "heading": "501.6m",
+      "detail": "日本有数の長いダート直線",
+      "visibleFocusLabels": 0,
+      "mapAnchor": true,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "tokyo",
+      "stage": "slope",
+      "page": 0,
+      "heading": "高低差 2.4m",
+      "detail": "長い直線の途中にある坂",
+      "visibleFocusLabels": 0,
+      "mapAnchor": true,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "tokyo",
+      "stage": "slope",
+      "page": 1,
+      "heading": "約200m",
+      "detail": "坂のあともほぼ平坦",
+      "visibleFocusLabels": 0,
+      "mapAnchor": true,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "tokyo",
+      "stage": "formation",
+      "page": 0,
+      "heading": "ゲートから隊列へ",
+      "detail": "各馬が想定位置へ移動",
+      "visibleFocusLabels": 0,
+      "mapAnchor": false,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "tokyo",
+      "stage": "formation",
+      "page": 1,
+      "heading": "前後の位置が決まる",
+      "detail": "前後・内外の関係を確認",
+      "visibleFocusLabels": 0,
+      "mapAnchor": false,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "tokyo",
+      "stage": "review",
+      "page": 0,
+      "heading": "全頭の位置を確認",
+      "detail": "まず前後・内外を見る",
+      "visibleFocusLabels": 0,
+      "mapAnchor": false,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "tokyo",
+      "stage": "review",
+      "page": 1,
+      "heading": "注目馬はどこ？",
+      "detail": "馬番 16・14・13・4 を強調",
+      "visibleFocusLabels": 4,
+      "mapAnchor": false,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "nakayama",
+      "stage": "course",
+      "page": 0,
+      "heading": "1コーナーまで 約405m",
+      "detail": "正面直線発走・右回り",
+      "visibleFocusLabels": 0,
+      "mapAnchor": true,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "nakayama",
+      "stage": "course",
+      "page": 1,
+      "heading": "310m",
+      "detail": "内回りの短い直線",
+      "visibleFocusLabels": 0,
+      "mapAnchor": true,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "nakayama",
+      "stage": "slope",
+      "page": 0,
+      "heading": "残り180m〜70m",
+      "detail": "ゴール前の上り区間",
+      "visibleFocusLabels": 0,
+      "mapAnchor": true,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "nakayama",
+      "stage": "slope",
+      "page": 1,
+      "heading": "高低差 2.2m",
+      "detail": "最大勾配は2.24％",
+      "visibleFocusLabels": 0,
+      "mapAnchor": true,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "nakayama",
+      "stage": "formation",
+      "page": 0,
+      "heading": "ゲートから隊列へ",
+      "detail": "各馬が想定位置へ移動",
+      "visibleFocusLabels": 0,
+      "mapAnchor": false,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "nakayama",
+      "stage": "formation",
+      "page": 1,
+      "heading": "前後の位置が決まる",
+      "detail": "前後・内外の関係を確認",
+      "visibleFocusLabels": 0,
+      "mapAnchor": false,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "nakayama",
+      "stage": "review",
+      "page": 0,
+      "heading": "全頭の位置を確認",
+      "detail": "まず前後・内外を見る",
+      "visibleFocusLabels": 0,
+      "mapAnchor": false,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    },
+    {
+      "key": "nakayama",
+      "stage": "review",
+      "page": 1,
+      "heading": "注目馬はどこ？",
+      "detail": "馬番 12・2・7 を強調",
+      "visibleFocusLabels": 3,
+      "mapAnchor": false,
+      "panel": {
+        "x": 62,
+        "y": 616.203125,
+        "width": 710,
+        "height": 217.796875
+      }
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

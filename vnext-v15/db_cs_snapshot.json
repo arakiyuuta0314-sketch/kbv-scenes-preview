@@ -1,0 +1,29 @@
+{
+  "schema": "kbv.scene03.db_course_context/v1",
+  "source": "SQLite jv_r_CS read-only verified, curated facts only; full JV-Data descriptions not redistributed",
+  "snapshot_date": "2026-11-03",
+  "by_case": {
+    "tokyo": {
+      "source_event_id": 42,
+      "created_ymd": "20160721",
+      "venue_code": "05",
+      "distance_m": 1400,
+      "track_code": "23",
+      "renovated_ymd": "20030426",
+      "summary": "3コーナーまで約440m。序盤に緩やかな上りがあり、3～4コーナーはほぼ平坦。最後の直線501.6mにも緩やかな上りがある。",
+      "summary_state": "CURATED_FROM_DB_CS_TEXT_NOT_CURRENTLY_REVERIFIED",
+      "geometry_from_db": false
+    },
+    "nakayama": {
+      "source_event_id": 58,
+      "created_ymd": "20150408",
+      "venue_code": "06",
+      "distance_m": 2000,
+      "track_code": "17",
+      "renovated_ymd": "19860101",
+      "summary": "最初の1コーナーまで約405m（Aコース）。1～2コーナー途中までは上り、向正面は平坦。3～4コーナーは緩やかな下りで、ゴール前には急坂がある。",
+      "summary_state": "CURATED_FROM_DB_CS_TEXT_NOT_CURRENTLY_REVERIFIED",
+      "geometry_from_db": false
+    }
+  }
+}

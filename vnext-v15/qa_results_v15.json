@@ -1,0 +1,78 @@
+{
+  "schema": "kbv.scene03.mobile.elevation.qa/v15",
+  "cases": [
+    {
+      "key": "tokyo",
+      "stage": "course",
+      "runnerCount": 16
+    },
+    {
+      "key": "tokyo",
+      "stage": "slope",
+      "runnerCount": 16
+    },
+    {
+      "key": "tokyo",
+      "stage": "formation",
+      "runnerCount": 16
+    },
+    {
+      "key": "tokyo",
+      "stage": "review",
+      "runnerCount": 16
+    },
+    {
+      "key": "nakayama",
+      "stage": "course",
+      "runnerCount": 12
+    },
+    {
+      "key": "nakayama",
+      "stage": "slope",
+      "runnerCount": 12
+    },
+    {
+      "key": "nakayama",
+      "stage": "formation",
+      "runnerCount": 12
+    },
+    {
+      "key": "nakayama",
+      "stage": "review",
+      "runnerCount": 12
+    }
+  ],
+  "durations": [
+    {
+      "mode": "standard",
+      "totalSeconds": 22
+    },
+    {
+      "mode": "long",
+      "totalSeconds": 38
+    }
+  ],
+  "status": "PASS",
+  "nakayamaOfficialClimb": {
+    "begin": [
+      0.8920280727010977,
+      -2.2
+    ],
+    "end": [
+      0.958010917161538,
+      0
+    ],
+    "delta": 2.2
+  },
+  "extraRunnerCounts": {
+    "eight": 8,
+    "positive8": true,
+    "eighteen": 18,
+    "positive18": true,
+    "badges8": 2,
+    "badges18": 5
+  },
+  "playButton": "PASS",
+  "unsupportedCourseRejected": "DATA ERROR: course has no verified geometry / elevation contract; refusing invented oval",
+  "errors": []
+}

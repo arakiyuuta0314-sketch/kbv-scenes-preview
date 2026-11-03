@@ -1,0 +1,354 @@
+{
+  "schema": "kbv.scene03.demo_races/v1",
+  "purpose": "DISPLAY_TEST_NOT_FORMAL_PREDICTION",
+  "races": {
+    "tokyo": {
+      "schema": "kbv.scene03.v2",
+      "id": "2026-10-25_tokyo_d1400",
+      "raceName": "神無月ステークス｜予想例",
+      "date": "2026-10-25",
+      "courseId": "tokyo-d1400",
+      "runners": [
+        {
+          "number": 1,
+          "name": "エコロアゼル",
+          "waku": 1,
+          "formation": {
+            "progress": 0.23065693430656933,
+            "lane": 0.32571428571428573
+          }
+        },
+        {
+          "number": 2,
+          "name": "メリディアンスター",
+          "waku": 1,
+          "formation": {
+            "progress": 0.5255474452554745,
+            "lane": 0.14857142857142858
+          }
+        },
+        {
+          "number": 3,
+          "name": "バトゥーキ",
+          "waku": 2,
+          "formation": {
+            "progress": 0.9167883211678832,
+            "lane": 0.3485714285714286
+          }
+        },
+        {
+          "number": 4,
+          "name": "ベルジュロネット",
+          "waku": 2,
+          "formation": {
+            "progress": 0.46131386861313867,
+            "lane": 0.49714285714285716
+          }
+        },
+        {
+          "number": 5,
+          "name": "ノーブルロジャー",
+          "waku": 3,
+          "formation": {
+            "progress": 0.6992700729927007,
+            "lane": 0.5542857142857143
+          }
+        },
+        {
+          "number": 6,
+          "name": "タイセイブレイズ",
+          "waku": 3,
+          "formation": {
+            "progress": 0.8306569343065694,
+            "lane": 0.3142857142857143
+          }
+        },
+        {
+          "number": 7,
+          "name": "ヨリノレジェンド",
+          "waku": 4,
+          "formation": {
+            "progress": 0.39416058394160586,
+            "lane": 0.26857142857142857
+          }
+        },
+        {
+          "number": 8,
+          "name": "ジャスパーゴールド",
+          "waku": 4,
+          "formation": {
+            "progress": 0.30656934306569344,
+            "lane": 0.5371428571428571
+          }
+        },
+        {
+          "number": 9,
+          "name": "フェルヴェンテ",
+          "waku": 5,
+          "formation": {
+            "progress": 0.3167883211678832,
+            "lane": 0.15428571428571428
+          }
+        },
+        {
+          "number": 10,
+          "name": "アッチャゴーラ",
+          "waku": 5,
+          "formation": {
+            "progress": 0.7182481751824817,
+            "lane": 0.12
+          }
+        },
+        {
+          "number": 11,
+          "name": "リラエンブレム",
+          "waku": 6,
+          "formation": {
+            "progress": 0.6233576642335766,
+            "lane": 0.32
+          }
+        },
+        {
+          "number": 12,
+          "name": "ニシキギミッチー",
+          "waku": 6,
+          "formation": {
+            "progress": 0.908029197080292,
+            "lane": 0.72
+          }
+        },
+        {
+          "number": 13,
+          "name": "リュウノフライト",
+          "waku": 7,
+          "formation": {
+            "progress": 0.0948905109489051,
+            "lane": 0.6457142857142857
+          }
+        },
+        {
+          "number": 14,
+          "name": "アドバンスファラオ",
+          "waku": 7,
+          "formation": {
+            "progress": 0.09781021897810219,
+            "lane": 0.2857142857142857
+          }
+        },
+        {
+          "number": 15,
+          "name": "スリーピース",
+          "waku": 8,
+          "formation": {
+            "progress": 0.20583941605839415,
+            "lane": 0.6457142857142857
+          }
+        },
+        {
+          "number": 16,
+          "name": "ワイワイレジェンド",
+          "waku": 8,
+          "formation": {
+            "progress": 0.035,
+            "lane": 0.44571428571428573
+          }
+        }
+      ],
+      "focusNumbers": [
+        16,
+        14,
+        13,
+        4
+      ],
+      "copy": {
+        "intro": {
+          "eyebrow": "COURSE / コースの特徴",
+          "heading": "コースを知る。<em>展開を読む。</em>",
+          "sub": "スタートから最初のコーナーへ。地形と距離を立体的に整理。",
+          "speech": "東京のダート1400m。スタートから3コーナーまでは約440m。3コーナー手前に上りがあり、最後の直線にも高低差2.4mの上り坂があります。",
+          "footer": "コースの起伏を知り、序盤の位置取りを考える。"
+        },
+        "action": {
+          "eyebrow": "START & FORMATION / 想定隊列",
+          "heading": "ゲートが開き、<em>先手争いへ。</em>",
+          "sub": "最初のコーナーに向けて、全頭の位置関係を追う。",
+          "speech": "逃げ候補には16番ワイワイレジェンド。14番アドバンスファラオ、13番リュウノフライトも先頭を意識する想定。前後関係が整うまでを見ます。",
+          "early": "先手を取るのは誰か。",
+          "late": "16番を中心に、先行勢が位置を取る。",
+          "body": "⑯を先頭候補に、⑭・⑬も前を意識。内外の進路は映像検証用の仮配置。",
+          "footer": "序盤の位置争い。どの馬が前へ出るか。"
+        },
+        "review": {
+          "eyebrow": "FORMATION REVIEW / 隊列を読む",
+          "heading": "コーナー進入前。<em>隊列を確認。</em>",
+          "sub": "3コーナー進入前で停止。全頭の前後と内外を読む。",
+          "speech": "最初のコーナーまでに隊列が整う想定です。先行候補の後ろに好位勢が続きます。先頭争いの長さが展開の焦点になります。",
+          "title": "先頭争いの長さが、展開を左右。",
+          "body": "逃げ候補がスムーズに隊列を作るか。先頭争いが長引けば、その後ろで脚をためる馬にも注目です。",
+          "points": [
+            "⑯の出方が先頭争いの焦点",
+            "⑭・⑬も前を意識する想定",
+            "④の位置取りにも注目"
+          ],
+          "footer": "先手争いの長さと、後続の脚の残り方に注目。"
+        }
+      }
+    },
+    "nakayama": {
+      "schema": "kbv.scene03.v2",
+      "id": "display_test_nakayama_t2000",
+      "raceName": "中山芝2000m｜表示テスト",
+      "date": "検証サンプル",
+      "sampleOnly": true,
+      "courseId": "nakayama-t2000-A",
+      "runners": [
+        {
+          "number": 1,
+          "name": "表示テスト馬01",
+          "waku": 1,
+          "formation": {
+            "progress": 0.64,
+            "lane": 0.29
+          }
+        },
+        {
+          "number": 2,
+          "name": "表示テスト馬02",
+          "waku": 1,
+          "formation": {
+            "progress": 0.18,
+            "lane": 0.38
+          }
+        },
+        {
+          "number": 3,
+          "name": "表示テスト馬03",
+          "waku": 2,
+          "formation": {
+            "progress": 0.43,
+            "lane": 0.64
+          }
+        },
+        {
+          "number": 4,
+          "name": "表示テスト馬04",
+          "waku": 3,
+          "formation": {
+            "progress": 0.83,
+            "lane": 0.26
+          }
+        },
+        {
+          "number": 5,
+          "name": "表示テスト馬05",
+          "waku": 3,
+          "formation": {
+            "progress": 0.38,
+            "lane": 0.49
+          }
+        },
+        {
+          "number": 6,
+          "name": "表示テスト馬06",
+          "waku": 4,
+          "formation": {
+            "progress": 0.48,
+            "lane": 0.17
+          }
+        },
+        {
+          "number": 7,
+          "name": "表示テスト馬07",
+          "waku": 5,
+          "formation": {
+            "progress": 0.21,
+            "lane": 0.56
+          }
+        },
+        {
+          "number": 8,
+          "name": "表示テスト馬08",
+          "waku": 5,
+          "formation": {
+            "progress": 0.61,
+            "lane": 0.68
+          }
+        },
+        {
+          "number": 9,
+          "name": "表示テスト馬09",
+          "waku": 6,
+          "formation": {
+            "progress": 0.91,
+            "lane": 0.43
+          }
+        },
+        {
+          "number": 10,
+          "name": "表示テスト馬10",
+          "waku": 7,
+          "formation": {
+            "progress": 0.75,
+            "lane": 0.57
+          }
+        },
+        {
+          "number": 11,
+          "name": "表示テスト馬11",
+          "waku": 7,
+          "formation": {
+            "progress": 0.53,
+            "lane": 0.29
+          }
+        },
+        {
+          "number": 12,
+          "name": "表示テスト馬12",
+          "waku": 8,
+          "formation": {
+            "progress": 0.07,
+            "lane": 0.37
+          }
+        }
+      ],
+      "focusNumbers": [
+        12,
+        2,
+        7
+      ],
+      "copy": {
+        "intro": {
+          "eyebrow": "COURSE / コースの特徴",
+          "heading": "最初の坂から、<em>レースが動く。</em>",
+          "sub": "中山・芝2000m（Aコース）の特徴を確認。",
+          "speech": "スタートから1コーナーまで約405m。中山はコース全体の高低差5.3m。ゴール前には高低差2.2mの急坂があります。",
+          "footer": "中山の起伏とコーナーまでの距離。"
+        },
+        "action": {
+          "eyebrow": "START & FORMATION / 表示テスト",
+          "heading": "坂を越え、<em>最初のコーナーへ。</em>",
+          "sub": "頭数・枠色・方向の可変検証用。",
+          "speech": "ここにレースごとの展開説明が入ります。馬の位置取りはすべて表示テスト用の仮データです。",
+          "early": "頭数の変化を確認。",
+          "late": "12頭での隊列配置を確認。",
+          "body": "レース予測ではありません。12頭・右回り・芝コース用の表示検証です。",
+          "footer": "レースの想定隊列は後からJSONで差し替える。"
+        },
+        "review": {
+          "eyebrow": "FORMATION REVIEW / 表示テスト",
+          "heading": "全12頭を、<em>一度に確認。</em>",
+          "sub": "実レースの予想ではない、表示検証専用画面。",
+          "speech": "頭数やレース条件を変更しても、全頭が読み取れるかを確認しています。",
+          "title": "頭数が変わっても、読みやすく。",
+          "body": "正式予想のデータが入るまでは、走行位置と展開評価を事実として表示しません。",
+          "points": [
+            "右回りコースの表示に切り替え",
+            "12頭の馬番表示を検証",
+            "芝の色・坂・距離を差し替え"
+          ],
+          "footer": "同じ表現基盤で、異なるコースにも対応。"
+        }
+      }
+    }
+  }
+}
