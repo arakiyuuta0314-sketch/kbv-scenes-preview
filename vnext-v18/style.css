@@ -1,0 +1,61 @@
+*{box-sizing:border-box}
+html,body{margin:0;background:#071b15;color:#f5f7e9;font-family:"Yu Gothic","Meiryo",sans-serif}
+main{width:1600px;margin:0 auto}
+#videoFrame{width:1600px;height:900px;position:relative;overflow:hidden;background:#193e2a}
+#sceneCanvas{position:absolute;inset:0;width:1600px;height:900px}
+#focusOverlay{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+#focusOverlay .focusNumber{position:absolute;display:flex;align-items:center;justify-content:center;width:84px;height:84px;border-radius:50%;border:5px solid #f9df9a;background:var(--waku);color:var(--text);font:900 46px Arial,sans-serif;text-shadow:0 1px 0 #7774;box-shadow:0 5px 17px #06180fdc,0 0 0 2px #0d382b80}
+#focusOverlay .focusLine{position:absolute;height:2px;background:#f7e3ad;transform-origin:left center;box-shadow:0 1px 3px #173122}
+#topInfo{position:absolute;top:0;left:0;right:0;display:flex;align-items:flex-start;justify-content:space-between;padding:32px 52px 62px;background:linear-gradient(#071e19ea,transparent);pointer-events:none}
+#series{font-size:32px;font-weight:900;white-space:nowrap;letter-spacing:-1.4px;text-shadow:0 2px 8px #08281e}
+.sun{font-size:33px;color:#ffd76d}
+#courseTag{font-size:35px;font-weight:900;color:#fff5df;letter-spacing:1px;text-shadow:0 2px 12px #061e17}
+#bottomInfo{position:absolute;left:62px;bottom:66px;width:710px;min-height:171px;padding:19px 31px 22px;
+  background:linear-gradient(115deg,#0b3027f3,#163f32dd);border:1px solid #b0be9369;border-left:6px solid #f5d286;
+  border-radius:4px 18px 18px 4px;box-shadow:0 15px 40px #05201599;pointer-events:none}
+#infoStep{font-weight:900;font-size:17px;letter-spacing:2.2px;color:#f0cc81;margin-bottom:6px}
+#message{font-size:56px;font-weight:900;letter-spacing:.4px;color:#fff8e6;text-shadow:0 3px 12px #061e17;white-space:nowrap}
+#subMessage{font-size:32px;color:#e2eddd;font-weight:700;margin-top:7px;line-height:1.4;min-height:29px}
+#mapCue{position:absolute;z-index:3;display:none;pointer-events:none;transform:translate(-50%,-105%);
+ padding:11px 17px;background:#123c30f2;border:2px solid #ffe19a;border-radius:24px;
+ font-size:23px;font-weight:900;color:#fff7dc;text-shadow:0 1px 4px #092418;white-space:nowrap;
+ box-shadow:0 4px 16px #0a261b80}
+#mapCue::after{content:"";position:absolute;bottom:-12px;left:calc(50% - 7px);
+ width:12px;height:12px;border-right:2px solid #ffe19a;border-bottom:2px solid #ffe19a;
+ background:#123c30;transform:rotate(45deg)}
+#imageNotice{position:absolute;bottom:15px;right:24px;font-size:12px;color:#d1d6bd;opacity:.75;pointer-events:none}
+#demoLabel{position:absolute;left:20px;bottom:15px;font-size:12px;letter-spacing:2px;color:#a8bfac;pointer-events:none}
+.controls{display:flex;align-items:center;gap:9px;margin:0;padding:15px 24px;background:#0a2c20}
+button,select,.upload{font:800 14px "Yu Gothic",sans-serif;padding:11px 14px;border:1px solid #80a58c;background:#184534;color:#f8e8be;border-radius:8px;cursor:pointer}
+#playBtn{background:#ddba6e;color:#1c3026}
+input[type=range]{accent-color:#f4d486;flex:1;min-width:130px}
+.upload input{display:none}
+#testStatus{color:#a5bdae;font-size:12px;text-align:right;padding:6px 22px 15px}
+
+/* v17: immutable START/GOAL coordinates projected from course trace; only on overview panels. */
+#raceAnchors{position:absolute;inset:0;z-index:4;pointer-events:none}
+.courseAnchor{position:absolute;display:none;align-items:center;gap:9px;
+ padding:9px 13px 9px 10px;border:2px solid;border-radius:12px;
+ box-shadow:0 6px 20px #062019bd;text-shadow:0 1px 3px #04170e;
+ transform:translate(-50%,-112%);white-space:nowrap}
+.courseAnchor::after{content:"";position:absolute;left:50%;bottom:-18px;width:2px;height:16px;background:currentColor;transform:translateX(-50%);box-shadow:0 1px 6px #031a0c}
+.courseAnchor::before{content:"";position:absolute;left:50%;bottom:-26px;width:9px;height:9px;border-radius:50%;background:currentColor;transform:translateX(-50%);box-shadow:0 0 0 3px #102f248c}
+.startAnchor{background:#0d4e3cef;border-color:#a9f5c8;color:#b7ffdb}
+.goalAnchor{background:#4a3219f3;border-color:#ffe7a0;color:#ffe19a}
+.anchorEmblem{width:46px;height:48px;display:grid;place-items:center;border-radius:8px;background:#eff5ea14}
+.anchorWords{display:flex;flex-direction:column;line-height:1.05;gap:2px}
+.anchorWords strong{font:900 35px Arial,sans-serif;letter-spacing:1px}
+.anchorWords small{font-size:18px;font-weight:800;letter-spacing:.4px}
+.startFlag{display:block;position:relative;width:25px;height:30px;border-left:3px solid #dcffe6}
+.startFlag::before{content:"";position:absolute;top:1px;left:1px;width:24px;height:16px;background:#64dba0;clip-path:polygon(0 0,100% 18%,70% 100%,0 85%);border-radius:2px}
+.checkerFlag{display:block;position:relative;width:30px;height:30px;transform:rotate(-5deg);
+ background:conic-gradient(#252820 25%,#f8f8ec 0 50%,#252820 0 75%,#f8f8ec 0);
+ background-size:15px 15px;border:1px solid #ffe4a0;box-shadow:-4px 2px 0 -2px #fff2c4}
+
+#mapCue::before{
+ content:"";position:absolute;z-index:-1;left:calc(50% - 1px);
+ bottom:calc(-5px - var(--stem-extra,0px));
+ height:var(--stem-extra,0px);width:2px;background:#ffe19a;
+ box-shadow:0 1px 4px #072219;
+}
+#mapCue::after{bottom:calc(-12px - var(--stem-extra,0px))}

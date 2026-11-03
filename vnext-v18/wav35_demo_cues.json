@@ -1,0 +1,35 @@
+{
+  "schema": "kbv.scene03.timestamped_cues/v1",
+  "durationSec": 35.776,
+  "audioFileName": "03_scene3.wav",
+  "wavHeader": {
+    "sampleRateHz": 24000,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "frames": 858624
+  },
+  "alignmentStatus": "DEMO_UNALIGNED",
+  "confirmationSource": null,
+  "events": [
+    {
+      "atSec": 0,
+      "stage": "formation",
+      "page": 0
+    },
+    {
+      "atSec": 10,
+      "stage": "formation",
+      "page": 1
+    },
+    {
+      "atSec": 19,
+      "stage": "review",
+      "page": 0
+    },
+    {
+      "atSec": 27,
+      "stage": "review",
+      "page": 1
+    }
+  ]
+}

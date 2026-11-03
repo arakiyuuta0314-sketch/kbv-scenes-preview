@@ -1,0 +1,85 @@
+{
+  "schema": "kbv.scene03.sequential_facts/v1",
+  "sourceNote": "Published JRA course pages and specific race course descriptions. Spatial 3D position remains hand-traced approximate.",
+  "courses": {
+    "tokyo-d1400": {
+      "sourceUrls": [
+        "https://www.jra.go.jp/facilities/race/tokyo/course/",
+        "https://www.jra.go.jp/keiba/thisweek/2026/0201_1/race.html"
+      ],
+      "startToFirstTurnApproxMeters": 440,
+      "straightMeters": 501.6,
+      "course": [
+        {
+          "id": "start-to-corner",
+          "kicker": "スタート地点",
+          "headline": "3コーナーまで 約440m",
+          "detail": "向正面スタート・左回り",
+          "anchor": "start"
+        },
+        {
+          "id": "final-straight",
+          "kicker": "ゴール前の直線",
+          "headline": "501.6m",
+          "detail": "日本有数の長いダート直線",
+          "anchor": "straight"
+        }
+      ],
+      "slope": [
+        {
+          "id": "uphill",
+          "kicker": "直線の途中に上り坂",
+          "headline": "高低差 2.4m",
+          "detail": "長い直線の途中にある坂",
+          "anchor": "slope"
+        },
+        {
+          "id": "post-uphill",
+          "kicker": "坂を上り切ったあと",
+          "headline": "約200m",
+          "detail": "坂のあともほぼ平坦",
+          "anchor": "slope"
+        }
+      ]
+    },
+    "nakayama-t2000-A": {
+      "sourceUrls": [
+        "https://www.jra.go.jp/facilities/race/nakayama/course/"
+      ],
+      "startToFirstTurnApproxMeters": 405,
+      "straightMeters": 310,
+      "course": [
+        {
+          "id": "start-to-corner",
+          "kicker": "スタート地点",
+          "headline": "1コーナーまで 約405m",
+          "detail": "正面直線発走・右回り",
+          "anchor": "start"
+        },
+        {
+          "id": "final-straight",
+          "kicker": "ゴール前の直線",
+          "headline": "310m",
+          "detail": "内回りの短い直線",
+          "anchor": "straight"
+        }
+      ],
+      "slope": [
+        {
+          "id": "uphill",
+          "kicker": "ゴール前の急坂",
+          "headline": "残り180m〜70m",
+          "detail": "ゴール前の上り区間",
+          "anchor": "slope"
+        },
+        {
+          "id": "post-uphill",
+          "kicker": "ゴール前の急坂",
+          "headline": "高低差 2.2m",
+          "detail": "最大勾配は2.24％",
+          "anchor": "slope"
+        }
+      ]
+    }
+  }
+}

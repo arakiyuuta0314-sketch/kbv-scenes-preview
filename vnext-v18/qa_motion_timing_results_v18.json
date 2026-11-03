@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "races": [
+    {
+      "key": "tokyo",
+      "expected": 16,
+      "entries": [
+        {
+          "label": "at-gate",
+          "stage": "formation",
+          "firstTurnMeters": 440,
+          "geometricFirstTurnTravelMeters": 440.22,
+          "headMax": 0,
+          "tailMin": 0
+        },
+        {
+          "label": "mid-formation",
+          "stage": "formation",
+          "firstTurnMeters": 440,
+          "geometricFirstTurnTravelMeters": 440.22,
+          "headMax": 234.011,
+          "tailMin": 206.369
+        },
+        {
+          "label": "beyond-turn",
+          "stage": "formation",
+          "firstTurnMeters": 440,
+          "geometricFirstTurnTravelMeters": 440.22,
+          "headMax": 656.92,
+          "tailMin": 579.323
+        },
+        {
+          "label": "review",
+          "stage": "review",
+          "firstTurnMeters": 440,
+          "geometricFirstTurnTravelMeters": 440.22,
+          "headMax": 656.92,
+          "tailMin": 579.323
+        }
+      ]
+    },
+    {
+      "key": "nakayama",
+      "expected": 12,
+      "entries": [
+        {
+          "label": "at-gate",
+          "stage": "formation",
+          "firstTurnMeters": 405,
+          "geometricFirstTurnTravelMeters": 418.29,
+          "headMax": 0,
+          "tailMin": 0
+        },
+        {
+          "label": "mid-formation",
+          "stage": "formation",
+          "firstTurnMeters": 405,
+          "geometricFirstTurnTravelMeters": 418.29,
+          "headMax": 220.995,
+          "tailMin": 201.246
+        },
+        {
+          "label": "beyond-turn",
+          "stage": "formation",
+          "firstTurnMeters": 405,
+          "geometricFirstTurnTravelMeters": 418.29,
+          "headMax": 620.38,
+          "tailMin": 564.94
+        },
+        {
+          "label": "review",
+          "stage": "review",
+          "firstTurnMeters": 405,
+          "geometricFirstTurnTravelMeters": 418.29,
+          "headMax": 620.38,
+          "tailMin": 564.94
+        }
+      ]
+    }
+  ],
+  "audioTiming": {
+    "sampleWavDuration": 35.776,
+    "mode": "DEMO_UNALIGNED",
+    "skippedUnspokenCourseStages": true
+  },
+  "durations": [
+    {
+      "mode": "standard",
+      "seconds": 22,
+      "status": "DEMO_UNALIGNED"
+    },
+    {
+      "mode": "long",
+      "seconds": 38,
+      "status": "DEMO_UNALIGNED"
+    },
+    {
+      "mode": "wav",
+      "seconds": 35.776,
+      "status": "DEMO_UNALIGNED"
+    },
+    {
+      "mode": "minute",
+      "seconds": 60,
+      "status": "DEMO_UNALIGNED"
+    }
+  ],
+  "failFast": "TIMELINE ERROR: stages/pages must be monotonic 1",
+  "dynamicFocusCues": {
+    "first": {
+      "seconds": 24,
+      "headline": "3番と5番",
+      "focus": [
+        3,
+        5
+      ],
+      "shown": [
+        "3",
+        "5"
+      ]
+    },
+    "second": {
+      "seconds": 32,
+      "headline": "12番",
+      "focus": [
+        12
+      ],
+      "shown": [
+        "12"
+      ]
+    }
+  }
+}
