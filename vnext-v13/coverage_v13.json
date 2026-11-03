@@ -1,0 +1,833 @@
+{
+  "schema": "kbv.scene03.coverage_qa/v13",
+  "cs_records": 119,
+  "unique_venue_distance_track_keys": 117,
+  "geometry_keys_registered": 2,
+  "unsupported_keys": 115,
+  "warning": "Coverage includes historical JV-CS keys and is NOT a list of active race conditions.",
+  "registered_course_ids": [
+    "tokyo-d1400",
+    "nakayama-t2000-A"
+  ],
+  "keys": [
+    {
+      "venue_code": "01",
+      "distance_m": 1000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "01",
+      "distance_m": 1000,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "01",
+      "distance_m": 1200,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "01",
+      "distance_m": 1500,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "01",
+      "distance_m": 1700,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "01",
+      "distance_m": 1800,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "01",
+      "distance_m": 2000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "01",
+      "distance_m": 2400,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "01",
+      "distance_m": 2600,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "02",
+      "distance_m": 1000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "02",
+      "distance_m": 1000,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "02",
+      "distance_m": 1200,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "02",
+      "distance_m": 1700,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "02",
+      "distance_m": 1800,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "02",
+      "distance_m": 2000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "02",
+      "distance_m": 2400,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "02",
+      "distance_m": 2600,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "03",
+      "distance_m": 1000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "03",
+      "distance_m": 1000,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "03",
+      "distance_m": 1150,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "03",
+      "distance_m": 1200,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "03",
+      "distance_m": 1700,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "03",
+      "distance_m": 1700,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "03",
+      "distance_m": 1800,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "03",
+      "distance_m": 2000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "03",
+      "distance_m": 2400,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "03",
+      "distance_m": 2600,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 1000,
+      "track_code": "10",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 1200,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 1200,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 1400,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 1600,
+      "track_code": "12",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 1800,
+      "track_code": "12",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 1800,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 2000,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 2000,
+      "track_code": "12",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 2200,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 2400,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "04",
+      "distance_m": 2500,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 1300,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 1400,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 1400,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": true
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 1600,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 1600,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 1800,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 2000,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 2100,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 2300,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 2400,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 2400,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 2500,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "05",
+      "distance_m": 3400,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 1200,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 1200,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 1600,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 1800,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 1800,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 2000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": true
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 2200,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 2400,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 2500,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 2500,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "06",
+      "distance_m": 3600,
+      "track_code": "21",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1000,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1200,
+      "track_code": "11",
+      "source_versions": 2,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1200,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1300,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1400,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1400,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1600,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1700,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1800,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1800,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 1900,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 2000,
+      "track_code": "11",
+      "source_versions": 2,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 2200,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 2300,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 2500,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 2500,
+      "track_code": "23",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "07",
+      "distance_m": 3000,
+      "track_code": "11",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 1200,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 1200,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 1400,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 1400,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 1400,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 1600,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 1600,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 1800,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 1800,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 1900,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 2000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 2200,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 2400,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 3000,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "08",
+      "distance_m": 3200,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 1200,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 1200,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 1400,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 1400,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 1600,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 1800,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 1800,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 2000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 2000,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 2200,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 2400,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 2600,
+      "track_code": "18",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "09",
+      "distance_m": 3000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "10",
+      "distance_m": 1000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "10",
+      "distance_m": 1000,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "10",
+      "distance_m": 1200,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "10",
+      "distance_m": 1700,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "10",
+      "distance_m": 1700,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "10",
+      "distance_m": 1800,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "10",
+      "distance_m": 2000,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "10",
+      "distance_m": 2400,
+      "track_code": "24",
+      "source_versions": 1,
+      "geometry_registered": false
+    },
+    {
+      "venue_code": "10",
+      "distance_m": 2600,
+      "track_code": "17",
+      "source_versions": 1,
+      "geometry_registered": false
+    }
+  ]
+}

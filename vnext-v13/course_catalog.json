@@ -1,0 +1,27 @@
+{
+  "schema": "kbv.scene03.course_geometry_registry/v1",
+  "source": "explicit mapping of JRA layout trace / JV-CS official venue-distance-track keys",
+  "coverage": "2 of ~117 CS venue-distance-track keys; do not synthesize missing geometry",
+  "courses": {
+    "tokyo-d1400": {
+      "venue": "東京",
+      "venueCode": "05",
+      "distance": 1400,
+      "trackCode": "23",
+      "surface": "dirt",
+      "surfaceLabel": "ダート",
+      "rotation": "left",
+      "csKey": "tokyo"
+    },
+    "nakayama-t2000-A": {
+      "venue": "中山",
+      "venueCode": "06",
+      "distance": 2000,
+      "trackCode": "17",
+      "surface": "turf",
+      "surfaceLabel": "芝A",
+      "rotation": "right",
+      "csKey": "nakayama"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "tokyo",
+      "stage": "course",
+      "courseId": "tokyo-d1400",
+      "count": 16
+    },
+    {
+      "name": "tokyo",
+      "stage": "terrain",
+      "courseId": "tokyo-d1400",
+      "count": 16
+    },
+    {
+      "name": "tokyo",
+      "stage": "formation",
+      "courseId": "tokyo-d1400",
+      "count": 16
+    },
+    {
+      "name": "tokyo",
+      "stage": "review",
+      "courseId": "tokyo-d1400",
+      "count": 16
+    },
+    {
+      "name": "nakayama",
+      "stage": "course",
+      "courseId": "nakayama-t2000-A",
+      "count": 12
+    },
+    {
+      "name": "nakayama",
+      "stage": "terrain",
+      "courseId": "nakayama-t2000-A",
+      "count": 12
+    },
+    {
+      "name": "nakayama",
+      "stage": "formation",
+      "courseId": "nakayama-t2000-A",
+      "count": 12
+    },
+    {
+      "name": "nakayama",
+      "stage": "review",
+      "courseId": "nakayama-t2000-A",
+      "count": 12
+    }
+  ],
+  "unsupported": "DATA ERROR: geometry unregistered for unknown-turf-1400; do not fake oval",
+  "eightHorse": 8,
+  "eighteenHorse": 18,
+  "errors": []
+}

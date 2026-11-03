@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,"><title>けいばびより｜Scene03 v13 汎用アニメーション試作</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<main>
+ <div id="board">
+  <header><div class="brand"><span>☀</span>けいばびより <small>SCENE 03 / GENERIC VISUAL PROTOTYPE</small></div>
+  <div class="stamp">v13 <b>表示検証・本番未採用</b></div></header>
+  <div class="heading"><div class="eyebrow" id="eyebrow">COURSE INTRO</div>
+  <h1 id="headline">コースを知る。<em>展開を読む。</em></h1>
+  <p id="subtitle">レースごとのコース情報と隊列入力に連動して表示</p></div>
+  <div class="content">
+   <section class="world">
+    <canvas id="sceneCanvas" width="1150" height="514"></canvas>
+    <div class="topFlags"><span id="shotLabel">COURSE</span><span id="trackLabel">表示テスト</span></div>
+    <div class="bottomFlags"><span>3D模式CG・高低断面図は概略読み取り</span><span id="phaseProgress">0%</span></div>
+    <div class="disclosure">走路形状はJRA図の手動トレース／測量3Dではありません</div>
+   </section>
+   <aside>
+    <div class="asideTop"><span class="tiny">TRACK FACTS / 新KBV SQLite</span><span class="pill" id="surfacePill">DIRT</span></div>
+    <div class="courseName" id="courseName">レース条件</div>
+    <div class="facts"><div><span>競馬場</span><strong id="venue">—</strong></div><div><span>距離</span><strong id="distance">—</strong></div><div><span>コース</span><strong id="turn">—</strong></div></div>
+    <div class="subtitleSmall">コース説明（DB保存文から抜粋）</div>
+    <p class="courseText" id="courseDescription"></p>
+    <div class="elevBox"><div class="tiny">ELEVATION / 断面図の概略</div>
+      <svg id="slopeSvg" viewBox="0 0 338 95" aria-label="起伏の参考模式線"><path id="slopeFill"/><path id="slopeLine"/><circle id="slopeDot" r="5"/></svg>
+      <div class="elevNote">標高座標・横距離は非縮尺。公式図の概略点。</div>
+    </div>
+    <div class="sourceFoot" id="sourceFoot"></div>
+   </aside>
+  </div>
+  <div class="timeline"><div><b id="stageName">COURSE</b><span id="stateLabel">コース全景</span></div>
+     <div class="timelineRail"><span id="seekBar"></span><i id="timelinePointer"></i></div>
+     <span class="timestamp" id="timeLabel">00:00 / 00:22</span></div>
+  <div class="footer"><span id="footerMessage">JRA図から再構成したコースを確認</span><span>試作映像・予想データはデモ / 本番未連携</span></div>
+ </div>
+ <div class="controls">
+  <button id="playBtn">▶ 再生</button>
+  <button data-jump="0">コース</button><button data-jump=".19">起伏</button><button data-jump=".35">スタート</button><button data-jump=".81">隊列確認</button>
+  <input type="range" id="seek" min="0" max="1000" value="0" aria-label="進行位置">
+  <select id="raceSelect" aria-label="レース"></select>
+  <label class="fileButton">レースJSONを読込<input id="upload" type="file" accept=".json,application/json"></label>
+  <span id="status">表示用デモ</span>
+ </div>
+</main>
+<script type="module" src="engine.js"></script>
+</body></html>
