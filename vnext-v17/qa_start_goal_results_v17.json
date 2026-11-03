@@ -1,0 +1,430 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "race": "tokyo",
+      "stage": 0,
+      "side": 0,
+      "anchorVisibility": {
+        "start": true,
+        "goal": true
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.38
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": {
+        "start": {
+          "x": 837.796875,
+          "y": 98.6500015258789,
+          "w": 214.59375,
+          "h": 92.89061737060547
+        },
+        "goal": {
+          "x": 824.65625,
+          "y": 454.1499938964844,
+          "w": 193.6875,
+          "h": 92.89065551757812
+        }
+      }
+    },
+    {
+      "race": "tokyo",
+      "stage": 0,
+      "side": 1,
+      "anchorVisibility": {
+        "start": true,
+        "goal": true
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.38
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": {
+        "start": {
+          "x": 837.796875,
+          "y": 98.6500015258789,
+          "w": 214.59375,
+          "h": 92.89061737060547
+        },
+        "goal": {
+          "x": 824.65625,
+          "y": 454.1499938964844,
+          "w": 193.6875,
+          "h": 92.89065551757812
+        }
+      }
+    },
+    {
+      "race": "tokyo",
+      "stage": 1,
+      "side": 0,
+      "anchorVisibility": {
+        "start": true,
+        "goal": true
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.38
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": {
+        "start": {
+          "x": 837.796875,
+          "y": 98.6500015258789,
+          "w": 214.59375,
+          "h": 92.89061737060547
+        },
+        "goal": {
+          "x": 824.65625,
+          "y": 454.1499938964844,
+          "w": 193.6875,
+          "h": 92.89065551757812
+        }
+      }
+    },
+    {
+      "race": "tokyo",
+      "stage": 1,
+      "side": 1,
+      "anchorVisibility": {
+        "start": true,
+        "goal": true
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.38
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": {
+        "start": {
+          "x": 837.796875,
+          "y": 98.6500015258789,
+          "w": 214.59375,
+          "h": 92.89061737060547
+        },
+        "goal": {
+          "x": 824.65625,
+          "y": 454.1499938964844,
+          "w": 193.6875,
+          "h": 92.89065551757812
+        }
+      }
+    },
+    {
+      "race": "tokyo",
+      "stage": 2,
+      "side": 0,
+      "anchorVisibility": {
+        "start": false,
+        "goal": false
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.38
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": null
+    },
+    {
+      "race": "tokyo",
+      "stage": 2,
+      "side": 1,
+      "anchorVisibility": {
+        "start": false,
+        "goal": false
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.38
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": null
+    },
+    {
+      "race": "tokyo",
+      "stage": 3,
+      "side": 0,
+      "anchorVisibility": {
+        "start": false,
+        "goal": false
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.38
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": null
+    },
+    {
+      "race": "tokyo",
+      "stage": 3,
+      "side": 1,
+      "anchorVisibility": {
+        "start": false,
+        "goal": false
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.38
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": null
+    },
+    {
+      "race": "nakayama",
+      "stage": 0,
+      "side": 0,
+      "anchorVisibility": {
+        "start": true,
+        "goal": true
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.8136363636363636
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": {
+        "start": {
+          "x": 877.703125,
+          "y": 466.6499938964844,
+          "w": 214.59375,
+          "h": 92.89065551757812
+        },
+        "goal": {
+          "x": 526.953125,
+          "y": 382.1499938964844,
+          "w": 193.6875,
+          "h": 92.890625
+        }
+      }
+    },
+    {
+      "race": "nakayama",
+      "stage": 0,
+      "side": 1,
+      "anchorVisibility": {
+        "start": true,
+        "goal": true
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.8136363636363636
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": {
+        "start": {
+          "x": 877.703125,
+          "y": 466.6499938964844,
+          "w": 214.59375,
+          "h": 92.89065551757812
+        },
+        "goal": {
+          "x": 526.953125,
+          "y": 382.1499938964844,
+          "w": 193.6875,
+          "h": 92.890625
+        }
+      }
+    },
+    {
+      "race": "nakayama",
+      "stage": 1,
+      "side": 0,
+      "anchorVisibility": {
+        "start": true,
+        "goal": true
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.8136363636363636
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": {
+        "start": {
+          "x": 877.703125,
+          "y": 466.6499938964844,
+          "w": 214.59375,
+          "h": 92.89065551757812
+        },
+        "goal": {
+          "x": 526.953125,
+          "y": 382.1499938964844,
+          "w": 193.6875,
+          "h": 92.890625
+        }
+      }
+    },
+    {
+      "race": "nakayama",
+      "stage": 1,
+      "side": 1,
+      "anchorVisibility": {
+        "start": true,
+        "goal": true
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.8136363636363636
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": {
+        "start": {
+          "x": 877.703125,
+          "y": 466.6499938964844,
+          "w": 214.59375,
+          "h": 92.89065551757812
+        },
+        "goal": {
+          "x": 526.953125,
+          "y": 382.1499938964844,
+          "w": 193.6875,
+          "h": 92.890625
+        }
+      }
+    },
+    {
+      "race": "nakayama",
+      "stage": 2,
+      "side": 0,
+      "anchorVisibility": {
+        "start": false,
+        "goal": false
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.8136363636363636
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": null
+    },
+    {
+      "race": "nakayama",
+      "stage": 2,
+      "side": 1,
+      "anchorVisibility": {
+        "start": false,
+        "goal": false
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.8136363636363636
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": null
+    },
+    {
+      "race": "nakayama",
+      "stage": 3,
+      "side": 0,
+      "anchorVisibility": {
+        "start": false,
+        "goal": false
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.8136363636363636
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": null
+    },
+    {
+      "race": "nakayama",
+      "stage": 3,
+      "side": 1,
+      "anchorVisibility": {
+        "start": false,
+        "goal": false
+      },
+      "positions": [
+        {
+          "kind": "START",
+          "fraction": 0.8136363636363636
+        },
+        {
+          "kind": "GOAL",
+          "fraction": 0
+        }
+      ],
+      "actualPixelRect": null
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "kbv.scene03.elevation_contract/v1",
+  "disclaimer": "Official numeric constraints but diagram-derived shapes are approximate, not surveyed xyz.",
+  "courses": {
+    "tokyo-d1400": {
+      "officialSource": "https://www.jra.go.jp/facilities/race/tokyo/course/",
+      "officialReliefMeters": 2.5,
+      "officialHomeStraightRiseMeters": 2.4,
+      "officialHomeStraightLengthMeters": 501.6,
+      "displayCue": "直線にも上り坂",
+      "cueStart": 0.76,
+      "cueEnd": 0.9,
+      "cueRangeState": "JRA_DIAGRAM_APPROXIMATE_T_POSITION",
+      "profileMethod": "v10 JRA diagram rough samples normalized to official relief; absolute grade points not measured",
+      "profileInput": "use_trace_normalized"
+    },
+    "nakayama-t2000-A": {
+      "officialSource": "https://www.jra.go.jp/facilities/race/nakayama/course/",
+      "officialReliefMeters": 5.3,
+      "officialHomeStraightRiseMeters": 2.2,
+      "officialHomeStraightLengthMeters": 310,
+      "officialClimbBeginsBeforeFinishMeters": 180,
+      "officialClimbEndsBeforeFinishMeters": 70,
+      "displayCue": "ゴール前に急坂",
+      "cueStart": 0.8920280727010977,
+      "cueEnd": 0.958010917161538,
+      "cueRangeState": "OFFICIAL_PUBLISHED_DISTANCES_MAPPED_TO_APPROX_TRACE",
+      "profileMethod": "v10 JRA diagram rough samples normalized to official relief; anchored home rise; other values approximate",
+      "profileInput": "nakayama_home_anchored"
+    }
+  }
+}
