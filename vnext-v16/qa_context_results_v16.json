@@ -1,0 +1,105 @@
+{
+  "schema": "kbv.scene03.contextual-full-course.v16",
+  "status": "PASS",
+  "races": [
+    {
+      "raceName": "tokyo",
+      "cases": [
+        {
+          "description": "start-to-corner",
+          "highlight": "startCorridor",
+          "cameraHeight": 53.99943367370886,
+          "cameraPosition": [
+            15.9873,
+            105.984,
+            55.4745
+          ],
+          "callout": true
+        },
+        {
+          "description": "straight",
+          "highlight": "straightCorridor",
+          "cameraHeight": 53.99943367370886,
+          "cameraPosition": [
+            15.9873,
+            105.984,
+            55.4745
+          ],
+          "callout": true
+        },
+        {
+          "description": "uphill",
+          "highlight": "slopeCorridor",
+          "cameraHeight": 53.99943367370886,
+          "cameraPosition": [
+            15.9873,
+            105.984,
+            55.4745
+          ],
+          "callout": true
+        },
+        {
+          "description": "after-uphill",
+          "highlight": "afterSlopeCorridor",
+          "cameraHeight": 53.99943367370886,
+          "cameraPosition": [
+            15.9873,
+            105.984,
+            55.4745
+          ],
+          "callout": true
+        }
+      ]
+    },
+    {
+      "raceName": "nakayama",
+      "cases": [
+        {
+          "description": "start-to-corner",
+          "highlight": "startCorridor",
+          "cameraHeight": 51.882180594466,
+          "cameraPosition": [
+            18.9056,
+            101.9373,
+            58.9935
+          ],
+          "callout": true
+        },
+        {
+          "description": "straight",
+          "highlight": "straightCorridor",
+          "cameraHeight": 51.882180594466,
+          "cameraPosition": [
+            18.9056,
+            101.9373,
+            58.9935
+          ],
+          "callout": true
+        },
+        {
+          "description": "uphill",
+          "highlight": "slopeCorridor",
+          "cameraHeight": 51.882180594466,
+          "cameraPosition": [
+            18.9056,
+            101.9373,
+            58.9935
+          ],
+          "callout": true
+        },
+        {
+          "description": "after-uphill",
+          "highlight": "slopeCorridor",
+          "cameraHeight": 51.882180594466,
+          "cameraPosition": [
+            18.9056,
+            101.9373,
+            58.9935
+          ],
+          "callout": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
