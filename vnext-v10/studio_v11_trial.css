@@ -1,0 +1,21 @@
+/* Scene03 v11 visual trial — presentation-only, v10 geometry and timing untouched. */
+:root{--studio-bg:#071620;--studio-ink:#eef5f5;--studio-muted:#a9bbc3;--studio-gold:#e8bf72;--studio-edge:#56707b66}
+body{background:radial-gradient(ellipse at 45% 5%,#1b3540 0%,#07141c 65%,#050d13 100%);color:var(--studio-ink)}
+#board{box-shadow:0 28px 95px #0009}
+.header{background:linear-gradient(90deg,#0b252b,#102d34 58%,#0b1b25);border-bottom:1px solid var(--studio-edge)}
+.header .brand{letter-spacing:.04em}
+.sceneTitle .kicker,.tiny.amber{color:var(--studio-gold)}
+.courseCanvas,.trackStage,.reviewField{background:linear-gradient(145deg,#17343a,#0b252b 65%,#091d25)}
+.courseCanvas svg,.trackStage svg,.reviewField svg{filter:drop-shadow(0 10px 18px #0003)}
+.insight,.formationAside,.reviewAside{background:linear-gradient(165deg,#102a32,#0b2029)}
+.insightCell,.profileCard,.stageCard{border-color:var(--studio-edge)}
+.stageCard{background:linear-gradient(150deg,#17343b,#10252e)}
+.stageCard.darker{background:#0a1c24}
+#gradeHud{background:linear-gradient(135deg,#092b34ed,#0b202be8);border-color:#8da6a87a}
+.gradeHead{color:#b4d4d3}
+.gradeName{color:#f8e1b0}
+#gradeLine{stroke:#e9bf75}
+#gradeDot{fill:#e9bf75}
+.reviewBadge,#stageBadge{letter-spacing:.08em}
+#horseMarks text,#reviewMarks text{paint-order:stroke fill;stroke:#09212b;stroke-width:1.1px;stroke-linejoin:round}
+@media(max-width:760px){#gradeHud{max-width:46%;left:12px;top:60px;padding:8px}.gradeName{font-size:13px}}
